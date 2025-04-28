@@ -1,14 +1,4 @@
-""" 
-Developer: aipython on [12-05-2021]
-website: www.aipython.in
-
-This program demonstrates the use case of  COWIN API (available in the public domain) to view the availability of 
-vaccine type, Minimum eligible age, Available slot for a particular date and Pincode.
-
-Check for COVID vaccine availability near you using Python | covid vaccine registration India | Python API
-"""
-
-import requests #can be installed using:  pip install requests
+import requests 
 
 PINCODE = "0"
 while len(PINCODE) != 6:
